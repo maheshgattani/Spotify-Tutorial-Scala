@@ -7,8 +7,8 @@ import DefaultJsonProtocol._
 
 object Spotify extends Controller {
 
-  val clientId = "1a15f7bdc9724553874bbc3a5f2c33d5" // Your client id
-  val clientSecret = "a72cf15261074d93bb7d37603b1ce12c" // Your client secret
+  val clientId = "" // Your client id
+  val clientSecret = "" // Your client secret
   val redirectUri = "http://localhost:9000/callback" // Your redirect uri
 
   val authUrl = "https://accounts.spotify.com/authorize"
@@ -20,7 +20,7 @@ object Spotify extends Controller {
 
   val getEncodedAuthKey : String = {
     // use https://www.base64encode.org/ to encode clientId:clientSecret
-    "MWExNWY3YmRjOTcyNDU1Mzg3NGJiYzNhNWYyYzMzZDU6YTcyY2YxNTI2MTA3NGQ5M2JiN2QzNzYwM2IxY2UxMmM="
+    ""
   }
 
   def login = Action {
