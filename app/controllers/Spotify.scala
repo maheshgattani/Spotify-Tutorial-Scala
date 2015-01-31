@@ -9,7 +9,7 @@ object Spotify extends Controller {
 
   val clientId = "3b5d1c5cc6294098af49e41d8e1dee98" // Your client id
   val clientSecret = "67943ddb8bd34593a9001f3abdf3690f" // Your client secret
-  val redirectUri = "http://localhost:9000/callback" // Your redirect uri
+  val redirectUri = "https://mysterious-atoll-4197.herokuapp.com/callback" // Your redirect uri
 
   val authUrl = "https://accounts.spotify.com/authorize"
   val accountAuthUrl = "https://accounts.spotify.com/authorize?"
