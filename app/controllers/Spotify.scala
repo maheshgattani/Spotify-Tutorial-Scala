@@ -20,7 +20,7 @@ object Spotify extends Controller {
 
   val getEncodedAuthKey : String = {
     // use https://www.base64encode.org/ to encode clientId:clientSecret
-    "MWExNWY3YmRjOTcyNDU1Mzg3NGJiYzNhNWYyYzMzZDU6N2U5NGEyMTA3NTU3NGIyZjhlMzFjY2MxY2IyNGY0Y2I="
+    "M2I1ZDFjNWNjNjI5NDA5OGFmNDllNDFkOGUxZGVlOTg6Njc5NDNkZGI4YmQzNDU5M2E5MDAxZjNhYmRmMzY5MGY="
   }
 
   def login = Action {
