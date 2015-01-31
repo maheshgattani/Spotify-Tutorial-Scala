@@ -7,8 +7,8 @@ import DefaultJsonProtocol._
 
 object Spotify extends Controller {
 
-  val clientId = "1a15f7bdc9724553874bbc3a5f2c33d5" // Your client id
-  val clientSecret = "7e94a21075574b2f8e31ccc1cb24f4cb" // Your client secret
+  val clientId = "3b5d1c5cc6294098af49e41d8e1dee98" // Your client id
+  val clientSecret = "67943ddb8bd34593a9001f3abdf3690f" // Your client secret
   val redirectUri = "http://localhost:9000/callback" // Your redirect uri
 
   val authUrl = "https://accounts.spotify.com/authorize"
