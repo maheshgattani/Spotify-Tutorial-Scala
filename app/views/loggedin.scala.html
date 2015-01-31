@@ -1,0 +1,18 @@
+@(name: String, email: String, href: String, id: String)
+
+@views.html.header()
+
+@views.html.wrapper(
+    <div class="media">
+        <div class="media-body">
+            <dl class="dl-horizontal">
+                <dt>Display name</dt><dd class="clearfix">{name}</dd>
+                <dt>Id</dt><dd>{id}</dd>
+                <dt>Email</dt><dd>{email}</dd>
+                <dt>Link</dt><dd><a href="{{href}}">{href}</a></dd>
+            </dl>
+        </div>
+    </div>
+)
+
+@views.html.footer()
